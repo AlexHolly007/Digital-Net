@@ -7,5 +7,5 @@ This implementation is specifically designed for videos that are considered the 
 
 ## How to use
 
-#Step 1
+# Step 1
 install the needed packages. Take a look at the install page
