@@ -8,4 +8,21 @@ This implementation is specifically designed for videos that are considered the 
 # How to use
 
 ## Step 1
-install the needed packages. Take a look at the install page [here](Install)
+Create an evironment and install the needed packages: Ultralytics for Yolo, Byte tracking, Supervision.
+Take a look at the install page [here](Install)
+
+## Step 2
+Create a dataset of images from the source video(s) that need to be tested.
+    This can be done by taking screenshots throughout the video and of related videos. The larger this dataset of images, the better the results will be. 
+    [FFmpeg](https://github.com/FFmpeg/FFmpeg) is a great tool for automating this process with large datasets. Otherwise, most video editing software have a screenshot option while watching the videos.
+
+## Step 3
+Label the images from the dataset before training. Find a labeling software that can give you [Yolov8 format](https://docs.ultralytics.com/datasets/detect/#ultralytics-yolo-format) of the images. 
+A free one that can be used online for small datasets is [Roboflow](roboflow.com).
+
+Create two folders, train and val. Split the labeled images up 80% in the train, and 20% in the val. Keep each images corresponding .txt file with it in that folder. Move both of these folders into a datasets folder that is within project directoy.
+
+## Step 4 
+Train a Yolo model with the labeled dataset. 
+Revisit [this yolov8 page](https://docs.ultralytics.com/datasets/detect/#ultralytics-yolo-format) to review how to create a correct .yaml file with your data.
+
