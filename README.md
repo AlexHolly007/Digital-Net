@@ -8,4 +8,4 @@ This implementation is specifically designed for videos that are considered the 
 # How to use
 
 ## Step 1
-install the needed packages. Take a look at the install page
+install the needed packages. Take a look at the install page AlexHolly007.github.com/meain/install
