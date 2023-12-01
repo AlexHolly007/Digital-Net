@@ -24,5 +24,8 @@ Create two folders, train and val. Split the labeled images up 80% in the train,
 
 ## Step 4 
 Train a Yolo model with the labeled dataset. 
-Revisit [this yolov8 page](https://docs.ultralytics.com/datasets/detect/#ultralytics-yolo-format) to review how to create a correct .yaml file with your data.
+Revisit [this yolov8 page](https://docs.ultralytics.com/datasets/detect/#ultralytics-yolo-format) to review how to create a correct .yaml file with your data. After this is done, a model can be trained at the command line with the following prompts.
+'''
+yolo detect train data=example.yaml model=yolov8s.pt epochs=10 batch=8 imgsz=640
+'''
 
