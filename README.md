@@ -8,7 +8,7 @@ This implementation is specifically designed for videos that are considered the 
 # How to use
 
 ## Step 1
-Create an evironment and install the needed packages: Ultralytics for Yolo, Byte tracking, Supervision.
+Create a python env evironment and install the needed packages: Ultralytics for Yolo, Byte tracking, Supervision.
 Take a look at the install page [here](Install)
 
 ## Step 2
