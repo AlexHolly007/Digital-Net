@@ -5,7 +5,15 @@ In order to run this script the following are needed:
     Bytetracker - Tracks object detections between frames within the video
 
 ## Step 1 Ultranalytics
-  pip install 
+        pip install ultralytics
+
+## Step 2 Supervision
+        pip install supervision==0.1.0
+
+## Step 3 Byte Tracker
+        Installation for byte tracker on the Byte Tracker Page
+        https://github.com/ifzhang/ByteTrack#installation
+
 Ultranalytics - YOLOv8
 Supervision
 Bytetracker
