@@ -1,3 +1,11 @@
+# Installation Guide
+In order to run this script the following are needed:
+    Ultranalytics - (Yolov8)
+    Supervision - Easy OpenCV functionalities, Video splitting and rebuilding
+    Bytetracker - Tracks object detections between frames within the video
+
+## Step 1 Ultranalytics
+  pip install 
 Ultranalytics - YOLOv8
 Supervision
 Bytetracker
