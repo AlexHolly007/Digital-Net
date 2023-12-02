@@ -9,7 +9,7 @@ In order to run this script the following are needed:
 
 ## Step 2 Supervision and tdmq
         pip install supervision==0.1.0
-        pip install tdmq
+        pip install tqdm
 
 ## Step 3 Byte Tracker
         Installation for byte tracker on the Byte Tracker Page
