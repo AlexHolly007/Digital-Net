@@ -7,7 +7,7 @@ In order to run this script the following are needed:
 ## Step 1 Ultranalytics
         pip install ultralytics
 
-## Step 2 Supervision and tdmq
+## Step 2 Supervision and tqdm
         pip install supervision==0.1.0
         pip install tqdm
 
