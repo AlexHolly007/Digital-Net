@@ -31,7 +31,8 @@ Revisit [this yolov8 page](https://docs.ultralytics.com/datasets/detect/#ultraly
 You can rerun this with new parameters until the optimal model is found.
 
 ## Step 5
-
+Run the Digital_Net script with the needed arguments to receive the finished video.
+`python3 Digital_Net.py -v /path/to/originalVideo -m /path/to/trainedYoloModel -o /path/to/outputfile`
 
 
 
