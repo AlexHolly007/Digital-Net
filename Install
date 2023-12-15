@@ -10,9 +10,14 @@ In order to run this script the following are needed:
 ## Step 2 Supervision and tqdm
         pip install supervision==0.1.0
         pip install tqdm
+        pip install onemetric
 
 ## Step 3 Byte Tracker
         Installation for byte tracker on the Byte Tracker Page
         Only the first step is needed.
 
         https://github.com/ifzhang/ByteTrack#installation
+
+        Reinstall numpy, Bytetracker only support <1.24 numpy versions.
+        pip uninstall numpy
+        pip install -U numpy==1.23.5
