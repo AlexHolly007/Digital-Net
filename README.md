@@ -5,6 +5,10 @@ NOTE
 This implementation is specifically designed for videos that are considered the "dolly zoom" or "vertigo affect". These are videos where the objects in the screen are coming towards the camera, starting far in the middle and appearing to move to the outsides of the video as the objects come closer to the camera.
 
 
+https://github.com/AlexHolly007/Digital-Net/assets/99518091/3e8d11ca-dd66-48ec-857c-36a96cb623b4
+
+
+
 # How to use
 
 ## Step 1
