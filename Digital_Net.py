@@ -1,3 +1,13 @@
+# Written by  Alex Holly
+#
+# Description: This is a script that had been written using Ultranalytics(YOLO8) and Byte tracker. This will identify
+#     a video from frame to frame based on weights given, as well as will track similar object detections from frame
+#     to frame. A video is inputted, split into each frame, detect objects, track objects, then reconnected into an output
+#     video.
+#########
+#########
+
+
 from ultralytics import YOLO
 import cv2
 import numpy as np
